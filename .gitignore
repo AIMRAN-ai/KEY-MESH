@@ -1,1 +1,29 @@
+# Dependencies
 node_modules
+
+# Frontend build output (Vite)
+dist
+dist-ssr
+*.local
+
+# Rust / Tauri build output
+src-tauri/target
+
+# Tauri auto-generated schemas
+src-tauri/gen/schemas
+
+# Logs
+*.log
+build.log
+debug.log
+
+# Editor / OS
+.DS_Store
+.idea
+.vscode/*
+!.vscode/extensions.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
